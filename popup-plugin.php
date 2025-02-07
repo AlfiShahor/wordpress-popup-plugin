@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Custom Popup
  * Description: A customizable pop-up plugin with image resizing, dark mode, and settings confirmation.
- * Version: 1.3
+ * Version: 1.1.0
  * Author: MD ALFI SHAHOR
  */
 
