@@ -6,6 +6,16 @@
  * Author: MD ALFI SHAHOR
  */
 
+require plugin_dir_path(__FILE__) . 'plugin-update-checker/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+$updateChecker = PucFactory::buildUpdateChecker(
+    'https://github.com/AlfiShahor/wordpress-popup-plugin', 'https://github.com/AlfiShahor/wordpress-popup-plugin', // Correct GitHub repository link
+// Your correct GitHub repository link
+    __FILE__,
+    'popup-plugin'
+);
+
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
